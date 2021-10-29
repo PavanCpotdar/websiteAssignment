@@ -1,0 +1,66 @@
+#login{
+    background-color: rgb(1, 26, 253);
+    width: fit-content;
+    height: 20px;
+}
+.form12{
+    margin: 70px 0 0 -21px;
+    
+   }
+   
+   .form12 form{
+       box-sizing: content-box;
+       background-color: white;
+       border-radius: 5px;
+       width: 270px;
+       height: 350px;
+       display: flex;
+       justify-content:space-around;
+       align-items: center;
+       flex-direction: column;
+       box-shadow: rgb(95, 211, 226) 0px 0px 18px;
+   }
+   .form12 form input{
+       width: 80%;
+       height: 30px;
+       border: black solid 1px;
+       border-radius: 3px;
+   }
+   /* .form12 form textarea{
+      padding: 10px 0 0 0 ;
+       width: 80%;
+       height: 30px;
+       border: black solid 1px;
+       border-radius: 3px;
+   } */
+   
+   /* .form12 form textarea:hover{
+       border: black solid 2px;
+   } */
+   .form12 form input:hover{
+       border: black solid 2px;
+   }
+   .form12 form input:focus{
+       outline: none;
+       border: black solid 2px;
+   }
+   .form12 form button{
+       position: relative;
+       background-color: #C0C0C0;
+       width: 80%;
+       height: 30px;
+       border: black solid 1px;
+       border-radius: 3px;
+   }
+   .form12 form button:hover{
+       background-color: #1f1717;
+       color: rgb(252, 252, 252);
+       transform: translateY(-8px);
+       transition-duration:.5s;
+       transition-timing-function: ease-in;
+   }
+   .form12 form button a{
+       text-decoration: none;
+       color: black;
+       font-size: large;
+   }

@@ -1,0 +1,31 @@
+#about{
+    background-color: rgba(1, 152, 253, 0.452);
+    width: fit-content;
+    height: 20px;
+}
+.tree{
+    position: relative;
+    top: 50px;
+}
+.par{
+    display: flex;
+    
+
+}
+.par1{
+    background-color: rgba(57, 124, 163, 0.603);
+    width: 50%;
+    height: 150px;
+    /* display: inline-block; */
+    /* display: flex; */
+
+}
+.par2{
+    background-color: rgba(30, 34, 88, 0.432);
+    width: 50%;
+    height: 150px;
+    /* display: inline-block; */
+}
+.par2 img{
+   height: -webkit-fill-available;
+}
