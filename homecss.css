@@ -42,8 +42,10 @@ body{
 
 }
 #home{
-    background-color: rgba(1, 26, 253, 0.61);
-    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.61);
+    color: rgb(5, 5, 5);
+    width: max-content;
+    padding: 5px;
     height: 20px;
 }
 .bar .list ul li a {
